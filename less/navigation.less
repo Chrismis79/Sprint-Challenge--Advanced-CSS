@@ -1,6 +1,11 @@
 // Navigation code here
 .header-sect {
-    .flex-box(flex, column, center, center);      
+    .flex-box(flex, column, center, center);    
+    
+    @media @phone{
+        width: 500px;
+        // border: 1px solid orange;
+    }
   
     h1 {
         font-size: 4rem;
